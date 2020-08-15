@@ -1,0 +1,13 @@
+ # Doxyfile for m.css which overrides the original Doxyfile 
+ @INCLUDE                = Doxyfile 
+ PROJECT_NAME            = "ApexIK" 
+ PROJECT_LOGO            = "Apex-Game-Engine-32.png" 
+ INPUT                   = ApexIK \
+                           docs/pages
+ RECURSIVE               = YES 
+ OUTPUT_DIRECTORY        = "docs" 
+ GENERATE_HTML           = NO 
+ GENERATE_LATEX          = NO 
+ GENERATE_XML            = YES 
+ XML_PROGRAMLISTING      = NO 
+ SHOW_INCLUDE_FILES      = YES 

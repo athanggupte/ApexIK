@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apex::IKChain2D class | ApexIK</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700,700i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
+  <link rel="icon" href="Apex-Game-Engine-32.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="Apex-Game-Engine-32.png" alt="" />ApexIK</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="namespaces.html">Namespaces</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="3">
+            <li><a href="annotated.html">Classes</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <span class="m-breadcrumb"><a href="namespace_apex.html">Apex</a>::<wbr/></span>IKChain2D <span class="m-thin">class</span>
+        </h1>
+        <p>Represents a chain of IK Nodes in 2D.</p>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a1a92cc8db5d8c612c82b24f1790d3e55" class="m-doc">IKChain2D</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#aebd0d4331ed4a1b505930a42b76bde8e" class="m-doc">~IKChain2D</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#a0909a421979c16a9d48216453b7c10d4" class="m-doc">AddNode</a>(</span><span class="m-doc-wrap">const glm::vec2&amp; nodePos)</span>
+            </dt>
+            <dd>Add a node to the end of the IK chain.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#afe31a508d7d4ca060397ef3ecc9fc83a" class="m-doc">AddNode</a>(</span><span class="m-doc-wrap">const <a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&amp; node)</span>
+            </dt>
+            <dd>Add a node to the end of the IK chain.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ae950a220334962f7e1086c6827028a45" class="m-doc">Size</a>(</span><span class="m-doc-wrap">) -&gt; size_t</span>
+            </dt>
+            <dd>Get size of (or number of nodes in) the chain.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a6533c6636f7925367fc7c6fd1ec9bee3" class="m-doc">operator[]</a>(</span><span class="m-doc-wrap">size_t index) -&gt; <a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&amp;</span>
+            </dt>
+            <dd>Array indexing operator for nodes in the chain.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5ddd586aa2085319f34d926228347513" class="m-doc">begin</a>(</span><span class="m-doc-wrap">) -&gt; std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::iterator</span>
+            </dt>
+            <dd>Returns the start iterator for Nodes vector.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a48baff70217e4747d50cfef7221157bb" class="m-doc">end</a>(</span><span class="m-doc-wrap">) -&gt; std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::iterator</span>
+            </dt>
+            <dd>Returns the end iterator for Nodes vector.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a0bdc11b9537960edf290c7a26b7200c7" class="m-doc">rbegin</a>(</span><span class="m-doc-wrap">) -&gt; std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::reverse_iterator</span>
+            </dt>
+            <dd>Returns the reverse start iterator for Nodes vector.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a24783e74b5faf470881c83959cfa55e7" class="m-doc">rend</a>(</span><span class="m-doc-wrap">) -&gt; std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::reverse_iterator</span>
+            </dt>
+            <dd>Returns the reverse end iterator for Nodes vector.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aa9c3f621b5562d13915d33f0b2bc01d8" class="m-doc">GetFirstNode</a>(</span><span class="m-doc-wrap">) -&gt; <a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a></span>
+            </dt>
+            <dd>Returns last node or effector of the chain.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a7ad9dcdd092b81435f22d7d8c10d50d3" class="m-doc">GetLastNode</a>(</span><span class="m-doc-wrap">) -&gt; <a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a></span>
+            </dt>
+            <dd>Returns last node or effector of the chain.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a1a92cc8db5d8c612c82b24f1790d3e55"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"> Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1a92cc8db5d8c612c82b24f1790d3e55" class="m-doc-self">IKChain2D</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default constructor for empty chain</p>
+          </div></section>
+          <section class="m-doc-details" id="aebd0d4331ed4a1b505930a42b76bde8e"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"> Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aebd0d4331ed4a1b505930a42b76bde8e" class="m-doc-self">~IKChain2D</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default destructor</p>
+          </div></section>
+          <section class="m-doc-details" id="a0909a421979c16a9d48216453b7c10d4"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a0909a421979c16a9d48216453b7c10d4" class="m-doc-self">AddNode</a>(</span><span class="m-doc-wrap">const glm::vec2&amp; nodePos)</span></span>
+            </h3>
+            <p>Add a node to the end of the IK chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">nodePos</td>
+                  <td>2D world position of the node</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="afe31a508d7d4ca060397ef3ecc9fc83a"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afe31a508d7d4ca060397ef3ecc9fc83a" class="m-doc-self">AddNode</a>(</span><span class="m-doc-wrap">const <a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&amp; node)</span></span>
+            </h3>
+            <p>Add a node to the end of the IK chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">node</td>
+                  <td>IK node instance to add</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="ae950a220334962f7e1086c6827028a45"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">size_t Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae950a220334962f7e1086c6827028a45" class="m-doc-self">Size</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Get size of (or number of nodes in) the chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Size of the chain</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a6533c6636f7925367fc7c6fd1ec9bee3"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"><a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&amp; Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6533c6636f7925367fc7c6fd1ec9bee3" class="m-doc-self">operator[]</a>(</span><span class="m-doc-wrap">size_t index)</span></span>
+            </h3>
+            <p>Array indexing operator for nodes in the chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">index</td>
+                  <td>Index of Node to access</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Reference to indexed node</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a5ddd586aa2085319f34d926228347513"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::iterator Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5ddd586aa2085319f34d926228347513" class="m-doc-self">begin</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns the start iterator for Nodes vector.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Start iterator for vector of Nodes</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a48baff70217e4747d50cfef7221157bb"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::iterator Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a48baff70217e4747d50cfef7221157bb" class="m-doc-self">end</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns the end iterator for Nodes vector.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>End iterator for vector of Nodes</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a0bdc11b9537960edf290c7a26b7200c7"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::reverse_iterator Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a0bdc11b9537960edf290c7a26b7200c7" class="m-doc-self">rbegin</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns the reverse start iterator for Nodes vector.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Reverse start iterator for vector of Nodes</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a24783e74b5faf470881c83959cfa55e7"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::vector&lt;<a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a>&gt;::reverse_iterator Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a24783e74b5faf470881c83959cfa55e7" class="m-doc-self">rend</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns the reverse end iterator for Nodes vector.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Reverse end iterator for vector of Nodes</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aa9c3f621b5562d13915d33f0b2bc01d8"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"><a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a> Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa9c3f621b5562d13915d33f0b2bc01d8" class="m-doc-self">GetFirstNode</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns last node or effector of the chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Last node in chain</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a7ad9dcdd092b81435f22d7d8c10d50d3"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"><a href="struct_apex_1_1_i_k_node2_d.html" class="m-doc">IKNode2D</a> Apex::<wbr />IKChain2D::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7ad9dcdd092b81435f22d7d8c10d50d3" class="m-doc-self">GetLastNode</a>(</span><span class="m-doc-wrap">)</span></span>
+            </h3>
+            <p>Returns last node or effector of the chain.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Last node in chain</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        Documented by <a href="https://github.com/xdevapps">xdevapps</a>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
