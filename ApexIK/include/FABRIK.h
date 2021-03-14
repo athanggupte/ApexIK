@@ -22,7 +22,7 @@ namespace Apex {
 		 * @param goal The goal position of the effector
 		 * @return Solved 2D IK chain
 		 */
-		static IKChain2D& Solve(IKChain2D& chain, glm::vec2 goal);
+		static IKChain2D& Solve(IKChain2D& chain, glm::vec2 goal, int maxIterations = 50);
 		
 		/**
 		 * @brief Solves 3D IK chain using FABRIK
@@ -30,7 +30,7 @@ namespace Apex {
 		 * @param goal The goal position of the effector
 		 * @return Solved 3D IK chain
 		 */
-		static IKChain3D& Solve(IKChain3D& chain, glm::vec3 goal);
+		static IKChain3D& Solve(IKChain3D& chain, glm::vec3 goal, int maxIterations = 50);
 
 	private:
 		/**
