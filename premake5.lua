@@ -15,7 +15,7 @@ project "ApexIK"
 
 	includedirs {
 		"%{prj.name}/include",
-		"../glm"
+		"../../vendor/glm"
 	}
 
 	filter "system:windows"
