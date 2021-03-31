@@ -343,3 +343,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+
+### premake-gmake ###
+Makefile
+*.make
+obj/
